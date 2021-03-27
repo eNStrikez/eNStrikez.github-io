@@ -1,0 +1,969 @@
+@prefix gov: <https://enstrikez.github.io/open-data-1/schema/> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/031753f2122dabbc91458d8da1323d8b> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.503 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0389afdb753aae95ed7b3e7d7d97bb9d> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.08800000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/050117dd4b2fac1e647521a3b969969a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.083 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/071290ebd879767bbe02f110eb48b035> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.38299999999999995 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0734368b1680a21cea3a3006e75b16e7> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.489 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0ade9fe0d8962fba20dbc019c2d64f64> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.027000000000000003 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0be7154932281dd79f0fa8ae6c57a343> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.22899999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0ef956dc43e236a80e05c65704f7d439> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.5379999999999999 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/155e823b95ab747f456f9987992bea1e> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.31 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/1594857bcc756665fb4031bd13d0b332> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.235 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/162270c5d7bfb1dec589d2e575f0e0ac> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.36700000000000005 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/17bdef65d38dadcd8cee14ec6212208a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.05 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/1948e436ae54abae2ec58f919f9f9a06> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.486 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2171109ca577f92b0f6336bcd0f72c5a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.41 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/22678d6b560ef3f43932a50921ad6ff0> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.08900000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/228bc9ac81407cb3a610f7468f734157> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.321 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/27f1917d403e0e6191807c0fc4ec1b83> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.163 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2b8d0b043c38f67d18d0dbf23a5c8a3f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.076 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2b9c9164882b0193ca525e8dccc0125f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.013999999999999999 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2e254abab33f286a6f877512e1f95d98> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.16699999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/30ab879dbb8a4e2b14ce96a9d0350de5> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.039 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/339af21cff272a33589a2e3ee94e86f7> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.42200000000000004 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/34e041d64aeaf06aa75164af58a62c0d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.26 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/3504231d2c37990cc9fb620fe09fa7d1> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.078 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/35174a76d71f29a70f53781dda771ad5> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.228 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/36fc716283aa462dd9c471ab6dd2a71e> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.098 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/391fb4a826108b13eb0ad7cfa1f59d86> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.16899999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/393175aad17cd8bf95632e660998e388> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.07200000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/3c538a1bff048344060c3f58370b92f7> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.19 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/3d4e707d9bd0911f61fd106da707987e> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.094 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/3e86a6d6bb4cd9138391c07e1f98c8fa> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.05 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/40822d114d9286162539479ddaae18c4> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.046 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/4084a1ead65f2c20193e8cc8a947e24c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.10400000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/4357e209aace92a7cf1344c5c5584316> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.585 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/457bb4a2de3a0778282e577189e16dc7> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.174 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/46f808fd83b94dbb346e5c91e6d65a22> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.09 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/4b66223d2e08d3db184f18ba7ccc1ce8> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.48200000000000004 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/547928498618c2623f62d62dc77a2b4d> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.20199999999999999 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/550c428a94f03618cf8e2acc855bb575> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.096 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5520a41e24a1b50e2988f2b9eaaa3697> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.122 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/56a2aa1ca8dbccf61c3bff0700afc881> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.07 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5cf4c0b7f6beb4bc10ec06eb24689497> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.42100000000000004 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5d5a8816231fb0c8a480e048a6ba70a0> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.085 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5fa50622f5dc7ab4dcbf1197b99d173a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.122 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/646221125e5d5a02df37fedd26a16a17> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.023 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6588c236334ff07419247329fd1335fe> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.08900000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/65e6780d0436d552554de093ac671c58> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.35 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/68ca2f95495749be0016b0f2cde8f147> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.429 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6916245f46e8e7065c43ae848b01960f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.096 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/697df1923f755412dcbc4be44562bb38> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.08 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6aa30ceb6da3ad3af3dfcab7a69d8c59> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.028999999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6c662ca4f2da2c5455c434a0a9eb2050> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.083 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6e9dcb87e9cfa8cc962e5d6661078959> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.027999999999999997 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/71d8483deb51b5652ea2564b9acc0089> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.18 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/7a26ffa15ffbd9d405f729d4e70822e4> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.042 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/7ddd10e864361834045a8d7a787d2311> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.355 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8550f2fdb59aa3b257f15433cb0f51b0> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.457 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/86dcbb075765e5a6bf7227aae3b9ca7c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.063 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/872b98ce764e9b603ac45194e9f0069b> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.07400000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8876b78c75bae6e9ae02615dc72d3fb4> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.368 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8f351f0e81d892e129dcd3ec71f1dc2f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.066 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8fe127a6c5426a1007b391c30d5d593b> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.45899999999999996 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/93f489a0653e33e3a49234f51b817764> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.07400000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/93fdc89763da2dbba8cd062a992f1ea2> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.099 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/945c6f1f7019110754b71fefbcf00184> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.08 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/965a8e7910d0234c5c04e2211e6d2d2a> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.073 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/9a6ac7143067bff5db0a43407450fe9c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/9a70b058c42078c61dc59d834223c87e> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.102 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/9c7310ec45b92ae23c6499291bbe6212> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.14300000000000002 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/9dc58a7ab0180ec227bd73e7414482da> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.37 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/9e0aa8a4da97b0024343790d247f5573> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.40399999999999997 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/a123542c8566c3f88d981f8da0a8b46d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.19 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/a403625b358210caafde2eefd111e090> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.081 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/a59531c1f03f11bbfe33bbdb2b881069> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.078 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b394e6c568dc1c4f6c565cd05a72bef3> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.19899999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b42b6fbc9309517d2c59ea2e697bb563> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.212 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b49ed58bed4e3fe1c767c4535a4277de> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.071 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b54021d26d432f520f78fc008d62a94d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.039 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b737697705b4498e0cc9ef9e13ec677c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.11 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b873c58106954d87f5ce5ee46679047c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.174 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/be357a8e07338729455b1bc60ded4930> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.091 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/bec24807a84cb97144c644d81411ea82> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.022000000000000002 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/bf921651db880c4aa285dad01c2c27c1> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.158 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c2cc7b573f798b40a9ae833d234ea0db> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.48200000000000004 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c4dc912a7a4a32295b3ece4de327b167> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.055999999999999994 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c636ba8ac383aad1dacab364247e595d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.401 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c6abf3ed7eb733d2dafb8956aca14f5f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.392 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/cb6c5ee775db9a5a2068cc706542d5bd> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.45 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d07c222fd55208993cab6fc12a23a65e> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.067 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d1ce8451c797daab9223f7948196397c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.066 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d3be6f80984fd53e855f195fb432f862> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.032 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d6bb4fef66f47914be9db9322fbd5714> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.094 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d71e1570f0538fc0603f3a84c5b4c9cd> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.071 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d7e84ea7a2f2c14fbba2f499d28f12ee> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.48100000000000004 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d8616459a2da81f30a09384053ea1a5f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.035 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d8c6010180f65f299975624b42845d7f> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.092 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/dc615f50f4aaf3d3cf767c75c5d00d47> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.39799999999999996 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/dd1d66126bea7d9a982d416877d7a4d7> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.091 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/dea64a965b3a01c72521c19837560f05> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.10800000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/dee40529e625ad1e44e863ce958d95ab> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.08800000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e52b7054b3b7e3c15ae98766949878bf> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.09300000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e5356219ecfe9f8265ea9d6804eed1d3> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.057999999999999996 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e600ae76f9f3a19eaf71d4c661fe565d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.13699999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e6e3e24f21fc546853fdf8ab33acf5b0> a gov:Survey ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.48 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/eba9bc1b0ed45b37305f0d75d2c43f56> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.386 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ecd3c19cdfe941bf5286d933bf1c8056> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.22699999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ee67588989a0a097c731e55c360e641d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/None> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.5870000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f2d494d0daa205fd88b32acdc4937d52> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.368 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f7b99de44bd51f377aa03627af911dcb> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.028999999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f9636380ac12d8007b1f42dfa461e5b1> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.042 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f99dfcd0702941af3187aa1afcd85e84> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.021 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/faa04a0fcda5c6a53e9d40ce12e9591b> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasScheme <https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> ;
+    gov:valueType "Question: Is your enterprise intending to apply for any of the following initiatives?"^^xsd:string ;
+    sdo:description "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Goverment Schemes"^^xsd:string ;
+    sdo:value 0.061 .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> a gov:Industry ;
+    sdo:name "Accommodation And Food Service Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> a gov:Industry ;
+    sdo:name "Administrative And Support Service Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> a gov:Industry ;
+    sdo:name "All Industries"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> a gov:Industry ;
+    sdo:name "Arts, Entertainment And Recreation"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Construction> a gov:Industry ;
+    sdo:name "Construction"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Education> a gov:Industry ;
+    sdo:name "Education"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> a gov:Industry ;
+    sdo:name "Human Health And Social Work Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> a gov:Industry ;
+    sdo:name "Information And Communication"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> a gov:Industry ;
+    sdo:name "Manufacturing"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> a gov:Industry ;
+    sdo:name "Professional, Scientific And Technical Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> a gov:Industry ;
+    sdo:name "Transportation And Storage"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> a gov:Industry ;
+    sdo:name "Water Supply, Sewerage, Waste Management And Remediation Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> a gov:Industry ;
+    sdo:name "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> a gov:Workforce ;
+    sdo:name "< 250"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> a gov:Workforce ;
+    sdo:name "250 +"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> a gov:Workforce ;
+    sdo:name "All Size Bands"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Scheme/Accredited%20finance%20agreements> a gov:Scheme ;
+    sdo:name "Accredited finance agreements"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Scheme/Business%20rates%20holiday> a gov:Scheme ;
+    sdo:name "Business rates holiday"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Scheme/Coronavirus%20Job%20Retention%20Scheme> a gov:Scheme ;
+    sdo:name "Coronavirus Job Retention Scheme"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Scheme/Deferring%20VAT%20payments> a gov:Scheme ;
+    sdo:name "Deferring VAT payments"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Scheme/Government-funded%20small%20business%20grant%20or%20loan%20schemes> a gov:Scheme ;
+    sdo:name "Government-funded small business grant or loan schemes"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Scheme/HMRC%20Time%20To%20Pay%20scheme> a gov:Scheme ;
+    sdo:name "HMRC Time To Pay scheme"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Scheme/None> a gov:Scheme ;
+    sdo:name "None"^^xsd:string .
+

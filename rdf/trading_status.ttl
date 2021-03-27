@@ -1,0 +1,580 @@
+@prefix gov: <https://enstrikez.github.io/open-data-1/schema/> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/03113dc404e5abc8ad9830caaf5ce541> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.126 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/03d57cc2fe16b9737b8e75855a8e332d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.261 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/097aadc7eda139a88fda1f7e5ab9c151> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.7979999999999999 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/097aca70cd310f5b1c525f71102a13e8> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/0b3798dcfdf03594cde5b81d8e98cd68> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/1e4d00e3b82ac513e0245b7ed79ba517> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.081 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/1ee665c32a33ed8d8dd6f549c5f72448> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.9670000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/25449ef1cdb49cdaed0e419061d53375> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2e3a39086d9dc60219accfee7f5c6cd4> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.752 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2f4e924d9bb92dd32a661735d1ef2f3e> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Scotland> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.217 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/2f782f2a3517e9d9cb7d1d6d08b7ed81> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/UK> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.767 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/30de76b329c61e7e6b7acff46d19b5e1> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Northern%20Ireland> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.728 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/31dc9061a948ca553343756a0274aad5> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.868 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/38efba055d83eaa050697ec0d8cc8497> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Wales> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.22699999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/3e096156a6bc6048d4eeac5dd6be4c54> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.19699999999999998 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/4414802e0b4dfe09fd00557dce73ea22> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/England> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/4cefdaa314945d6784f5abb375936fc6> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.228 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/50eaaac760b77b01bb66598c22fd2b1e> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Scotland> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.7759999999999999 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/55b08b37686e89266b150065bc46f2b3> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.049 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5608328180df2ff7f0d6a5c821cfff7d> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5919e55d09dbb1e66d6835573fbb2443> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.045 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/5fcf029c03e60522a09e893f10c0b76c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.013999999999999999 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/65a91854a9f5a5d7f5e160048c918f74> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.767 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/66ae00bb1c549393c992c3fb8859dd14> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/6758fe29b4241e94a7a42daabd3fee7c> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.20600000000000002 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/67e9c522bf1faaa0b685114df3913fd2> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.182 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/726e14f4e2b176303c1805ec0205d73b> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.795 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/739771881902c642022a3b434e1be5d9> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/75ed5b72ac0adb3afbe33e3e8cdd6cdc> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/England> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.778 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/79fd09e07f99ff703560495d5feb6454> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/UK> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.228 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/7f868b7e9b9cb06de4c3a8a736b31f73> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/886b8c41521aa18f248231c7d82ce982> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/8bb1c6cb00ee8951f97e20938bda2b14> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.1 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/95ea8cf770abd169ef9de99ba6b50776> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.767 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/967c194dcac058c3ce496c48e462cdf2> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Northern%20Ireland> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/a17c8589893987f63cfea037d43054af> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.748 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/a3ffde131bc0385a7bbfa5dd4d0e0fcc> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ac3d8730133cc98d9c71b6a4a6958ac0> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.03 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b2ed172e020d08608e21d3877d8e9c56> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.247 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b32294e3f970ea156b18d610e18572b8> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/b3fbe47c86d25192f4eec54263ac29f0> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/UK> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ba83b7a8e7c38091e3ee69050680d4a7> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.79 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/bd72bc3df7d4387cfb65c17fb8f90b66> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.205 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/bf6be991453626fc031beea3d7cae9f7> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Northern%20Ireland> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.272 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c03831f89957fc7e4a464ca55fc66343> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.938 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c77957e7e91090baf129c58ed5e8e629> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/c9efccc2f5ec52bef17cbe14ad583d90> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.915 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ca5844850d14c6c3268a1f861f98b1a5> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.9 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ce34070a31a81df1c96ae4f8438d46a5> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/cf0005a6eead1bacb2668d695526b525> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.915 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d238bb5e43fd286958fb8ebc05e94be5> a gov:Survey ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:hasWorkforce <https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.228 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/d3fa37721ebb6cfabd1a4bfa18bdb496> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Construction> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.732 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/def6992d609fd7f2054f4a6fe28589e6> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Wales> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.762 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/dfbb5a78ed26ef6526567ebba9505c44> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.085 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e12dae0196fc7b6345f6fbf4321c8033> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e16b549df7aee98170f25d5cd03b3d69> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.8059999999999999 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e3bce15929314a4855bca9b98ed7d4a5> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/England> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.218 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e3c5b4395be3068c6c6e581af60aaa8d> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Wales> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.011000000000000001 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/e43b5ac9f72f083882470e3f12bcd9ee> a gov:Survey ;
+    gov:hasCountry <https://enstrikez.github.io/open-data-1/data/Country/Scotland> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/eff0e8a9bad48d5211c7c0f33a587f45> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Education> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.0 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f2f844296272b7b9ad23f21fe277d062> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.243 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/f2fa3c25c10a0613f4b0378b35d33ecb> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.012 .
+
+<https://enstrikez.github.io/open-data-1/data/Survey/ffc9cb8a22f487d5144ceeb391341a73> a gov:Survey ;
+    gov:hasIndustry <https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> ;
+    gov:hasStatus <https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> ;
+    gov:valueType "Question: What is the current trading status of your enterprise?"^^xsd:string ;
+    sdo:description "Percentage of all responding businesses, UK, 6 April to 19 April 2020"^^xsd:string ;
+    sdo:name "Trading Status"^^xsd:string ;
+    sdo:value 0.95 .
+
+<https://enstrikez.github.io/open-data-1/data/Country/England> a gov:Country ;
+    sdo:name "England"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Country/Northern%20Ireland> a gov:Country ;
+    sdo:name "Northern Ireland"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Country/Scotland> a gov:Country ;
+    sdo:name "Scotland"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Country/UK> a gov:Country ;
+    sdo:name "UK"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Country/Wales> a gov:Country ;
+    sdo:name "Wales"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Accommodation%20And%20Food%20Service%20Activities> a gov:Industry ;
+    sdo:name "Accommodation And Food Service Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Administrative%20And%20Support%20Service%20Activities> a gov:Industry ;
+    sdo:name "Administrative And Support Service Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/All%20Industries> a gov:Industry ;
+    sdo:name "All Industries"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Arts%2C%20Entertainment%20And%20Recreation> a gov:Industry ;
+    sdo:name "Arts, Entertainment And Recreation"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Construction> a gov:Industry ;
+    sdo:name "Construction"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Education> a gov:Industry ;
+    sdo:name "Education"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Human%20Health%20And%20Social%20Work%20Activities> a gov:Industry ;
+    sdo:name "Human Health And Social Work Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Information%20And%20Communication> a gov:Industry ;
+    sdo:name "Information And Communication"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Manufacturing> a gov:Industry ;
+    sdo:name "Manufacturing"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Professional%2C%20Scientific%20And%20Technical%20Activities> a gov:Industry ;
+    sdo:name "Professional, Scientific And Technical Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Transportation%20And%20Storage> a gov:Industry ;
+    sdo:name "Transportation And Storage"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Water%20Supply%2C%20Sewerage%2C%20Waste%20Management%20And%20Remediation%20Activities> a gov:Industry ;
+    sdo:name "Water Supply, Sewerage, Waste Management And Remediation Activities"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Industry/Wholesale%20And%20Retail%20Trade%3B%20Repair%20Of%20Motor%20Vehicles%20And%20Motorcycles> a gov:Industry ;
+    sdo:name "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/%3C%20250> a gov:Workforce ;
+    sdo:name "< 250"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/250%20%2B> a gov:Workforce ;
+    sdo:name "250 +"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Workforce/All%20Size%20Bands> a gov:Workforce ;
+    sdo:name "All Size Bands"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Status/Continuing%20to%20trade> a gov:Status ;
+    sdo:name "Continuing to trade"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Status/Has%20permanently%20ceased%20trading> a gov:Status ;
+    sdo:name "Has permanently ceased trading"^^xsd:string .
+
+<https://enstrikez.github.io/open-data-1/data/Status/Has%20temporarily%20closed%20or%20temporarily%20paused%20trading> a gov:Status ;
+    sdo:name "Has temporarily closed or temporarily paused trading"^^xsd:string .
+
