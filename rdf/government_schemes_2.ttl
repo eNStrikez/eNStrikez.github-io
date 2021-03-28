@@ -1,3 +1,4 @@
+@base <https://enstrikez.github.io/open-data-1/data/> .
 @prefix gov: <https://enstrikez.github.io/open-data-1/schema/> .
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .

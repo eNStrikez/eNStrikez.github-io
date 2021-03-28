@@ -1,11 +1,24 @@
-<mat-drawer-container class="example-container">
-    <mat-drawer mode="side" opened>
-        <h1>Open Data Innovation Coursework 1</h1>
-        <p>By Neil Patil</p>
-    </mat-drawer>
-    <mat-drawer-content>
+<mat-sidenav-container class="mat-elevation-z1 example-container">
+    <mat-sidenav mode="side" class="example-sidenav" [(opened)]="opened">
+        <mat-nav-list>
+            <mat-content *ngFor="let survey of surveys">
+                <a mat-list-item [routerLink]="['/survey', survey.url]">
+                    <span class="badge">{{ survey.name }}</span>
+                </a>
+            </mat-content>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="example-sidenav-content">
+        <mat-toolbar>
+            <button mat-icon-button class="menu-icon" aria-label="Example icon-button with menu icon" (click)="toggle()">
+              <mat-icon>menu</mat-icon>
+            </button>
+            <span>Open Data Innovation Coursework 1</span>
+            <span class="spacer" aria-hidden="true"></span>
+            <span>Neil Patil</span>
+        </mat-toolbar>
         <router-outlet></router-outlet>
-    </mat-drawer-content>
-</mat-drawer-container>
+    </mat-sidenav-content>
+</mat-sidenav-container>
 
 

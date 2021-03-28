@@ -1,0 +1,16 @@
+mat-sidenav-container {
+    height: 100%;
+}
+
+mat-sidenav {
+    width: 200px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.menu-icon {
+    margin-right: 15px;
+}
+
