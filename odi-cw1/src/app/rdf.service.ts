@@ -7,7 +7,7 @@ import { Survey } from './survey';
     providedIn: 'root',
 })
 export class RdfService {
-    private server = "http://localhost:5000/";
+    private server = "https://enstrikez.github.io/open-data-server/";
     public surveys = [
         {url: 'sample_size', name: 'Sample Size', axis1: ['Industry'], axis2: ['Workforce Size']},
         {url: 'response_rates', name: 'Response Rates', axis1: ['Industry'], axis2: ['Workforce Size']},
