@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RdfService } from './rdf.service';
 
 @Component({
     selector: 'app-root',
@@ -8,14 +9,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
     title = 'odi-cw1';
     opened = true;
-    surveys = [
-        {url: 'sample_size', name: 'Sample Size'},
-        {url: 'response_rates', name: 'Response Rates'},
-        {url: 'trading_status', name: 'Trading Status'},
-        {url: 'government_schemes_1', name: 'Government Schemes (Applied)'},
-        {url: 'government_schemes_2', name: 'Government Schemes (Received)'},
-        {url: 'government_schemes_3', name: 'Government Schemes (Intending)'},
-    ]
+    surveys: any;
+
+    constructor(private rdfService: RdfService) {}
+
+    ngOnInit(): void {
+        this.surveys = this.rdfService.surveys;
+    }
 
     toggle(): void {
         this.opened = !this.opened;

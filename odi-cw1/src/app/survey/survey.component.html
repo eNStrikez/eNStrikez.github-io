@@ -1,4 +1,33 @@
-<p>Survey: <a [href]="url">{{url}}</a></p>
-<p *ngFor="let d of data">
-    {{d}}
-</p>
+<div class="overlay" *ngIf="loading">
+    <div>
+        <mat-spinner style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></mat-spinner>
+        <mat-caption style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%);">{{loadingText}}
+        </mat-caption>
+    </div>
+</div>
+<ng-container *ngIf="!loading">
+    <div *ngFor="let option of chartOptions">
+        <highcharts-chart [Highcharts]="highcharts" [options]="option" [(update)]="updateFlag" [oneToOne]="true"
+            style="width: 95%; height: 75vh; display: block; padding: 20px;"></highcharts-chart>
+        <mat-toolbar>
+            <button style="margin-right: 15px;" mat-raised-button color="accent" (click)="toggleLegend(option)">Toggle
+                Legend</button>
+            <button style="margin-right: 15px;" mat-raised-button color="primary" [disabled]="chartType == 'bar'"
+                (click)="setType('bar', option)">Bar</button>
+            <button style="margin-right: 15px;" mat-raised-button color="primary" [disabled]="chartType == 'column'"
+                (click)="setType('column', option)">Column</button>
+            <span class="example-spacer"></span>
+            <mat-label style="margin-right: 15px;">X Axis:</mat-label>
+            <button style="margin-right: 45px;" mat-stroked-button color="accent" [matMenuTriggerFor]="aboveMenu1">{{a1}}</button>
+            <mat-menu #aboveMenu1="matMenu" yPosition="above">
+                <button *ngFor="let a of axis1" mat-menu-item (click)="loadChart(survey, a, a2)">{{a}}</button>
+            </mat-menu>
+            <mat-label style="margin-right: 15px;">Y Axis:</mat-label>
+            <button style="margin-right: 45px;" mat-stroked-button color="accent" [matMenuTriggerFor]="aboveMenu2">{{a2}}</button>
+            <mat-menu #aboveMenu2="matMenu" yPosition="above">
+                <button *ngFor="let a of axis2" mat-menu-item (click)="loadChart(survey, a1, a)">{{a}}</button>
+            </mat-menu>
+            <button style="margin-right: 15px;" mat-stroked-button color="primary" (click)="swapAxis()">Swap Axis</button>
+        </mat-toolbar>
+    </div>
+</ng-container>

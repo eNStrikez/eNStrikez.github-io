@@ -1,7 +1,11 @@
-import { NamedNode } from "./named-node";
-
 export class Triple {
-    subject: NamedNode | undefined;
-    predicate: NamedNode | undefined;
-    object: NamedNode | undefined;
+    subject: string;
+    predicate: string;
+    object: string;
+
+    constructor(s: string, p: string, o: string){
+        this.subject = s;
+        this.predicate = p;
+        this.object = o;
+    }
 }
