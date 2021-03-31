@@ -15,9 +15,11 @@ export class AppComponent {
 
     ngOnInit(): void {
         this.surveys = this.rdfService.surveys;
+        this.rdfService.loadAllNames();
     }
 
     toggle(): void {
         this.opened = !this.opened;
+        console.log(this.rdfService.businesses)
     }
 }

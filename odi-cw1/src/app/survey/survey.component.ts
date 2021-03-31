@@ -17,6 +17,7 @@ export class SurveyComponent implements OnInit {
     updateFlag = false;
     chartType = "column";
     loading = true;
+    partlyLoading = true;
     axis1: string[] = []
     axis2: string[] = []
     a1: string = "";
@@ -46,32 +47,38 @@ export class SurveyComponent implements OnInit {
         this.rdfService.loadMeta(survey, axis1, axis2).subscribe(meta => {
             this.loadingText = "Loading survey data, please wait...";
             let loaders = []
-            for (let m of meta){
+            meta.sort((a: { Name: string; }, b: { Name: any; }) => a.Name.localeCompare(b.Name));
+            for (let m of meta) {
                 this.rdfService.loadSurvey(survey, axis1, axis2, m.Type).subscribe(data => {
+                    console.log(data);
+                    data.forEach((d: any) => { d.Name = this.rdfService.getNameFromURI(d.Name) });
                     this.loadingText = "Rendering graphs, please wait...";
                     this.chartOptions.push(this.drawBars(m, data));
                     loaders.push(true);
-                    this.loading = loaders.length < meta.length;
-                }); 
+                    this.partlyLoading = loaders.length < meta.length;
+                    this.loading = false;
+                });
             }
         });
     }
 
-    public swapAxis(){
+    public swapAxis() {
         const axis3 = this.axis1.map(x => x);
         this.axis1 = this.axis2.map(x => x);
         this.axis2 = axis3;
         this.loadChart(this.survey, this.a2, this.a1);
     }
 
-    public setType(chartType: string, option: any): void {
+    public setType(chartType: string): void {
         this.chartType = chartType;
-        option.chart.type = chartType;
+        this.chartOptions.forEach(x => {
+            x.chart.type = chartType;
+        })
         this.updateFlag = true;
     }
 
     public toggleLegend(option: any): void {
-        option.legend = {enabled: option.legend.enabled ? false : true}
+        option.legend = { enabled: option.legend.enabled ? false : true }
         this.updateFlag = true;
     }
 
@@ -82,7 +89,7 @@ export class SurveyComponent implements OnInit {
         data.forEach(d => {
             let values: any[] = [];
             keys.forEach(k => {
-                values.push(d.Values[k] != undefined ? +d.Values[k] : null)
+                values.push(d.Values[k] != undefined ? Math.round((+d.Values[k] + Number.EPSILON) * 1000) / 1000 : null)
             });
             series.push({
                 data: values,
@@ -116,7 +123,7 @@ export class SurveyComponent implements OnInit {
                 text: meta.Desc
             },
             xAxis: {
-                categories: this.getKeys(data),
+                categories: this.getKeys(data).map((k:any) => this.rdfService.getNameFromURI(k)),
                 title: {
                     text: this.a2
                 }

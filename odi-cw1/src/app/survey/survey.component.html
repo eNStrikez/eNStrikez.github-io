@@ -13,9 +13,9 @@
             <button style="margin-right: 15px;" mat-raised-button color="accent" (click)="toggleLegend(option)">Toggle
                 Legend</button>
             <button style="margin-right: 15px;" mat-raised-button color="primary" [disabled]="chartType == 'bar'"
-                (click)="setType('bar', option)">Bar</button>
+                (click)="setType('bar')">Bar</button>
             <button style="margin-right: 15px;" mat-raised-button color="primary" [disabled]="chartType == 'column'"
-                (click)="setType('column', option)">Column</button>
+                (click)="setType('column')">Column</button>
             <span class="example-spacer"></span>
             <mat-label style="margin-right: 15px;">X Axis:</mat-label>
             <button style="margin-right: 45px;" mat-stroked-button color="accent" [matMenuTriggerFor]="aboveMenu1">{{a1}}</button>
@@ -29,5 +29,8 @@
             </mat-menu>
             <button style="margin-right: 15px;" mat-stroked-button color="primary" (click)="swapAxis()">Swap Axis</button>
         </mat-toolbar>
+    </div>
+    <div *ngIf="partlyLoading">
+        <mat-spinner style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></mat-spinner>
     </div>
 </ng-container>
