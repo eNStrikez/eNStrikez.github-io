@@ -1,0 +1,35 @@
+<h2 mat-dialog-title>About and Help</h2>
+<mat-dialog-content class="mat-typography">
+	<mat-divider></mat-divider>
+	<h3>About the app</h3>
+	<p>This app allows the visualisation and exploration of the data collected in a BICS survey about businesses'
+		responses to the COVID-19 pandemic. </p>
+	<p>This app uses an Angular front-end with Highcharts to display the graphs.</p>
+	<p>A Python Flask server loads the data from RDF graphs stored in TTL files and queries it with SPARQL to provide
+		the data to the front-end.</p>
+	<p>For deploying the app, Microsoft Azure's App Services have been utilised. </p>
+	<mat-divider></mat-divider>
+	<h3>The Linked Data Ontology</h3>
+	<p>The RDF data files, schema file and example ontology can be found
+		<a href="https://github.com/eNStrikez/open-data-1/tree/main/rdf">here</a>
+	</p>
+	<mat-divider></mat-divider>
+	<h3>Swapping graphs</h3>
+	<p>Above the graphs, users can find a tab group to switch between graphs. On surveys, the user can alternate between bar/column charts and heatmaps.</p>
+	<p> On the pages for categories of business, results for different surveys can be selected.</p>
+	<mat-divider></mat-divider>
+	<h3>Filtering the graphs</h3>
+	<p>The graphs can be filtered by clicking on the categories in the legend of the graphs. This will resize the graph to better show data distribution within the leftover groups as well. The legend can also be minimised at will.</p>
+	<mat-divider></mat-divider>
+	<h3>Zooming in on the graphs</h3>
+	<p>By dragging on the graphs to create a rectangle, the graphs can be zoomed into.</p>
+	<mat-divider></mat-divider>
+	<h3>Changing and swapping axis</h3>
+	<p>Users can alter the axis shown on certain graphs where alternate categories of data have been recorded by clicking on the buttons on the right of the lower toolbar. The axis can also be swapped entirely to display the data from a different viewpoint.</p>
+	<mat-divider></mat-divider>
+	<h3>Accessing the navigation bar</h3>
+	<p>Clicking the menu icon <mat-icon>menu</mat-icon> on the toolbar will bring up the navigation bar, allowing users to view survey results or categories of businesses that partook in the survey.</p>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+	<button mat-button [mat-dialog-close]="true" cdkFocusInitial>Close</button>
+</mat-dialog-actions>

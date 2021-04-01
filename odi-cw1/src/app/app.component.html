@@ -1,24 +1,44 @@
-<mat-sidenav-container class="mat-elevation-z1 example-container">
-    <mat-sidenav mode="side" class="example-sidenav" [(opened)]="opened">
+<mat-sidenav-container class="mat-elevation-z1 example-container" autosize>
+    <mat-sidenav mode="over" class="example-sidenav" [(opened)]="opened">
         <mat-nav-list>
+            <div mat-subheader>Surveys</div>
             <mat-content *ngFor="let survey of surveys">
-                <a mat-list-item [routerLink]="['/survey', survey.url]">
+                <a style="margin-bottom: 10px;" mat-list-item [routerLink]="['/survey', survey.url]">
                     <span class="badge">{{ survey.name }}</span>
                 </a>
             </mat-content>
+            <mat-divider></mat-divider>
+            <div mat-subheader>Businesses categorised by</div>
+            <mat-accordion class="mat-elevation-z1">
+                <mat-expansion-panel class="mat-elevation-z1" *ngFor="let bus of getKeys(rdfService.businesses)">
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            {{bus}}
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-content *ngFor="let b of rdfService.businesses[bus]">
+                        <a style="margin-bottom: 10px;" mat-list-item (click)="navigateTo(bus, b.name)">
+                            <span class="badge">{{ b.name }}</span>
+                        </a>
+                    </mat-content>
+                </mat-expansion-panel>
+            </mat-accordion>
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content class="example-sidenav-content">
         <mat-toolbar>
-            <button mat-icon-button class="menu-icon" aria-label="Example icon-button with menu icon" (click)="toggle()">
-              <mat-icon>menu</mat-icon>
+            <button mat-icon-button class="menu-icon" aria-label="Sidenav toggle"
+                (click)="toggle()" matTooltip="Open Sidenav">
+                <mat-icon>menu</mat-icon>
             </button>
             <span>Open Data Innovation Coursework 1</span>
             <span class="spacer" aria-hidden="true"></span>
+            <button mat-stroked-button color="warn" (click)="openDialog()" matTooltip="Open Help Panel" style="margin-right: 45px;">
+                <mat-icon>menu</mat-icon>
+                Help
+            </button>
             <span>Neil Patil</span>
         </mat-toolbar>
         <router-outlet></router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>
-
-

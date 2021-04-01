@@ -3,7 +3,7 @@ mat-sidenav-container {
 }
 
 mat-sidenav {
-    width: 200px;
+    min-width: 200px;
 }
 
 .spacer {

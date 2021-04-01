@@ -7,8 +7,8 @@ import { Survey } from './survey';
     providedIn: 'root',
 })
 export class RdfService {
-    //private server = "https://open-data.azurewebsites.net/";
-    private server = "http://127.0.0.1:5000/";
+    private server = "https://open-data.azurewebsites.net/";
+    //private server = "http://127.0.0.1:5000/";
     public surveys = [
         { url: 'sample_size', name: 'Sample Size', axis1: ['Industry'], axis2: ['Workforce Size'] },
         { url: 'response_rates', name: 'Response Rates', axis1: ['Industry'], axis2: ['Workforce Size'] },
@@ -34,6 +34,11 @@ export class RdfService {
     public loadSurvey(name: string, x: string, y: string, val: string): Observable<any> {
         let ps = new HttpParams().set('name', name).set('x', x).set('y', y).set('val', val);
         return this.http.get<Survey[]>(this.server + "series", { params: ps, responseType: 'json' })
+    }
+
+    public loadBusiness(name: string, cls: string, x: string, y: string, val: string): Observable<any> {
+        let ps = new HttpParams().set('name', name).set('x', x).set('y', y).set('val', val).set('cls', cls);
+        return this.http.get<Survey[]>(this.server + "business", { params: ps, responseType: 'json' })
     }
 
     public loadMeta(name: string, x: string, y: string): Observable<any> {
@@ -85,5 +90,17 @@ export class RdfService {
             }
         };
         return [];
+    }
+
+    public uriToURL(uri: string){
+        return location.origin + uri.split('/').slice(-2).join('/');
+    }
+
+    public getValidSurveys(name: string): any[]{
+        let surveys: any[] = []
+        this.surveys.forEach(s => {
+            s.axis1.includes(name) || s.axis2.includes(name) ? surveys.push(s) : ''
+        });
+        return surveys;
     }
 }

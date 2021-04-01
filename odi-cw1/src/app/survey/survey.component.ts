@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 import { ActivatedRoute } from '@angular/router';
 import * as Highcharts from 'highcharts';
 import highchartsHeatmap from 'highcharts/modules/heatmap';
@@ -80,7 +79,6 @@ export class SurveyComponent implements OnInit {
     }
 
     public toggleLegend(option: any): void {
-        console.log(option)
         option.legend = { enabled: option.legend.enabled ? false : true }
         this.updateFlag = true;
     }
@@ -214,10 +212,10 @@ export class SurveyComponent implements OnInit {
             colorAxis: {
                 min: 0,
                 stops: [
-                    [0, "#ffffff"],
-                    [0.25, "#ffe100"],
+                    [0, "#488718"],
+                    [0.15, "#ffe100"],
                     [0.5, "#ff7b00"],
-                    [0.9, "#ff0000"],
+                    [0.85, "#ff0000"],
                     [1, "#000000"],
                 ],
                 scale: 'logarithmic',
@@ -237,7 +235,6 @@ export class SurveyComponent implements OnInit {
             series: [{
                 type: 'heatmap',
                 name: meta.Type,
-                borderWidth: 1,
                 data: series,
                 dataLabels: {
                     enabled: true,

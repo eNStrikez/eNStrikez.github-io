@@ -6,16 +6,16 @@
     </div>
 </div>
 <div [hidden]="loading">
-    <mat-tab-group mat-stretch-tabs class="mat-elevation-z4">
-        <mat-tab>
+    <mat-tab-group mat-stretch-tabs class="mat-elevation-z4" [selectedIndex]="0">
+        <mat-tab active>
             <ng-template mat-tab-label>
-                <mat-icon class="example-tab-icon">bar_chart</mat-icon>
+                <mat-icon style="margin-right:10px" class="example-tab-icon">bar_chart</mat-icon>
                 Charts
             </ng-template>
             <ng-template matTabContent>
                 <div *ngFor="let option of chartOptions">
                     <highcharts-chart [Highcharts]="highcharts" [options]="option" [(update)]="updateFlag"
-                        [oneToOne]="true" style="width: 95%; height: 75vh; display: block; padding: 20px;">
+                        [oneToOne]="true" style="height: 75vh; display: block; padding: 20px;">
                     </highcharts-chart>
                     <mat-toolbar>
                         <button style="margin-right: 15px;" mat-raised-button color="accent"
@@ -41,7 +41,7 @@
                                 (click)="loadChart(survey, a1, a)">{{a}}</button>
                         </mat-menu>
                         <button style="margin-right: 15px;" mat-stroked-button color="primary" (click)="swapAxis()">
-                            <mat-icon class="example-tab-icon">pivot_table_chart</mat-icon>
+                            <mat-icon style="margin-right:10px" class="example-tab-icon">pivot_table_chart</mat-icon>
                             Swap Axis
                         </button>
                     </mat-toolbar>
@@ -51,13 +51,13 @@
 
         <mat-tab>
             <ng-template mat-tab-label>
-                <mat-icon class="example-tab-icon">grid_on</mat-icon>
+                <mat-icon style="margin-right:10px" class="example-tab-icon">grid_on</mat-icon>
                 Heat Maps
             </ng-template>
             <ng-template matTabContent>
                 <div *ngFor="let option of heatOptions">
                     <highcharts-chart [Highcharts]="highcharts" [options]="option" [(update)]="updateFlag"
-                        [oneToOne]="true" style="width: 95%; height: 75vh; display: block; padding: 20px;">
+                        [oneToOne]="true" style="height: 75vh; display: block; padding: 20px;">
                     </highcharts-chart>
                     <mat-toolbar>
                         <span class="example-spacer"></span>
@@ -76,7 +76,7 @@
                                 (click)="loadChart(survey, a1, a)">{{a}}</button>
                         </mat-menu>
                         <button style="margin-right: 15px;" mat-stroked-button color="primary" (click)="swapAxis()">
-                            <mat-icon class="example-tab-icon">pivot_table_chart</mat-icon>
+                            <mat-icon style="margin-right:10px" class="example-tab-icon">pivot_table_chart</mat-icon>
                             Swap Axis
                         </button>
                     </mat-toolbar>

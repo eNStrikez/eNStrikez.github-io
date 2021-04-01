@@ -13,6 +13,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatDialogModule } from '@angular/material/dialog';
 
 const modules = [
     MatSidenavModule,
@@ -29,6 +32,9 @@ const modules = [
     MatSlideToggleModule,
     MatProgressSpinnerModule,
     MatMenuModule,
+    MatExpansionModule,
+    MatTooltipModule,
+    MatDialogModule,
 ];
 
 @NgModule({

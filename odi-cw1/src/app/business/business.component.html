@@ -1,0 +1,41 @@
+<div class="overlay" *ngIf="loading">
+    <div>
+        <mat-spinner style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></mat-spinner>
+        <mat-caption style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%);">{{loadingText}}
+        </mat-caption>
+    </div>
+</div>
+<div [hidden]="loading">
+    <mat-toolbar>
+        <span>{{category}}: {{id}}</span>
+    </mat-toolbar>
+    <mat-tab-group mat-stretch-tabs class="mat-elevation-z4" (selectedIndex)="0">
+        <mat-tab *ngFor="let survey of surveys" [label]="survey.name">
+                
+            <div *ngFor="let option of survey.chartOptions">
+                <highcharts-chart [Highcharts]="highcharts" [options]="option" [(update)]="updateFlag" [oneToOne]="true"
+                    style="height: 75vh; display: block; padding: 20px;">
+                </highcharts-chart>
+                <mat-toolbar>
+                    <button style="margin-right: 15px;" mat-raised-button color="accent"
+                        (click)="toggleLegend(option)">Toggle
+                        Legend</button>
+                    <button style="margin-right: 15px;" mat-raised-button color="primary"
+                        [disabled]="option.chart.type == 'bar'" (click)="setType(option, 'bar')">Bar</button>
+                    <button style="margin-right: 15px;" mat-raised-button color="primary"
+                        [disabled]="option.chart.type == 'column'" (click)="setType(option, 'column')">Column</button>
+                    <span class="example-spacer"></span>
+                    <mat-label style="margin-right: 15px;">X Axis:</mat-label>
+                    <button style="margin-right: 45px;" mat-stroked-button disabled color="accent">{{category}}</button>
+                    <mat-label style="margin-right: 15px;">Y Axis:</mat-label>
+                    <button style="margin-right: 45px;" mat-stroked-button color="accent"
+                        [matMenuTriggerFor]="aboveMenu2">{{survey.ax}}</button>
+                    <mat-menu #aboveMenu2="matMenu" yPosition="above">
+                        <button *ngFor="let a of survey.axis" mat-menu-item
+                            (click)="changeAxis(survey, a)">{{a}}</button>
+                    </mat-menu>
+                </mat-toolbar>
+            </div>
+        </mat-tab>
+    </mat-tab-group>
+</div>

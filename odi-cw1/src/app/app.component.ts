@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
 import { RdfService } from './rdf.service';
 
 @Component({
@@ -11,15 +13,32 @@ export class AppComponent {
     opened = true;
     surveys: any;
 
-    constructor(private rdfService: RdfService) {}
+    constructor(public rdfService: RdfService, private router: Router, public dialog: MatDialog) {}
 
     ngOnInit(): void {
         this.surveys = this.rdfService.surveys;
         this.rdfService.loadAllNames();
     }
 
-    toggle(): void {
+    openDialog() {
+        const dialogRef = this.dialog.open(Dialogue);
+    }
+
+    public toggle(): void {
         this.opened = !this.opened;
-        console.log(this.rdfService.businesses)
+    }
+
+    public getKeys(data: any[]): string[] {
+        return Object.keys(data).sort();
+    }
+
+    public navigateTo(cls: string, uri: string) {
+        this.router.navigate(["/business/", cls, uri]);
     }
 }
+
+@Component({
+    selector: 'dialogue',
+    templateUrl: './dialogue.html',
+  })
+  export class Dialogue {}
