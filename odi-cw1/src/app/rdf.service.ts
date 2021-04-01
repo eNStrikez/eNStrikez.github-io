@@ -7,8 +7,8 @@ import { Survey } from './survey';
     providedIn: 'root',
 })
 export class RdfService {
-    private server = "https://open-data.azurewebsites.net/";
-    //private server = "http://127.0.0.1:5000/";
+    //private server = "https://open-data.azurewebsites.net/";
+    private server = "http://127.0.0.1:5000/";
     public surveys = [
         { url: 'sample_size', name: 'Sample Size', axis1: ['Industry'], axis2: ['Workforce Size'] },
         { url: 'response_rates', name: 'Response Rates', axis1: ['Industry'], axis2: ['Workforce Size'] },
@@ -57,7 +57,6 @@ export class RdfService {
         for (let s of Object.keys(this.businesses)){
             for (let b of this.businesses[s]){
                 if (b.uri === uri){
-                    console.log(b.name);
                     return b.name;
                 }
             }

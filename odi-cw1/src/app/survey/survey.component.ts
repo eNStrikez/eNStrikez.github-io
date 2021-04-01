@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { MatSlideToggleChange } from '@angular/material/slide-toggle';
 import { ActivatedRoute } from '@angular/router';
 import * as Highcharts from 'highcharts';
+import highchartsHeatmap from 'highcharts/modules/heatmap';
 import { RdfService } from '../rdf.service';
-
+highchartsHeatmap(Highcharts);
 
 @Component({
     selector: 'app-survey',
@@ -11,9 +12,9 @@ import { RdfService } from '../rdf.service';
     styleUrls: ['./survey.component.css']
 })
 export class SurveyComponent implements OnInit {
-
     highcharts: typeof Highcharts = Highcharts;
     chartOptions: any[] = [];
+    heatOptions: any[] = [];
     updateFlag = false;
     chartType = "column";
     loading = true;
@@ -43,6 +44,7 @@ export class SurveyComponent implements OnInit {
         this.a1 = axis1;
         this.a2 = axis2;
         this.chartOptions = [];
+        this.heatOptions = [];
         this.loadingText = "Loading metadata, please wait...";
         this.rdfService.loadMeta(survey, axis1, axis2).subscribe(meta => {
             this.loadingText = "Loading survey data, please wait...";
@@ -50,10 +52,10 @@ export class SurveyComponent implements OnInit {
             meta.sort((a: { Name: string; }, b: { Name: any; }) => a.Name.localeCompare(b.Name));
             for (let m of meta) {
                 this.rdfService.loadSurvey(survey, axis1, axis2, m.Type).subscribe(data => {
-                    console.log(data);
                     data.forEach((d: any) => { d.Name = this.rdfService.getNameFromURI(d.Name) });
                     this.loadingText = "Rendering graphs, please wait...";
                     this.chartOptions.push(this.drawBars(m, data));
+                    this.heatOptions.push(this.drawHeat(m, data))
                     loaders.push(true);
                     this.partlyLoading = loaders.length < meta.length;
                     this.loading = false;
@@ -78,6 +80,7 @@ export class SurveyComponent implements OnInit {
     }
 
     public toggleLegend(option: any): void {
+        console.log(option)
         option.legend = { enabled: option.legend.enabled ? false : true }
         this.updateFlag = true;
     }
@@ -123,7 +126,7 @@ export class SurveyComponent implements OnInit {
                 text: meta.Desc
             },
             xAxis: {
-                categories: this.getKeys(data).map((k:any) => this.rdfService.getNameFromURI(k)),
+                categories: this.getKeys(data).map((k: any) => this.rdfService.getNameFromURI(k)),
                 title: {
                     text: this.a2
                 }
@@ -163,6 +166,91 @@ export class SurveyComponent implements OnInit {
                 enabled: false
             },
             series: this.transformSeries(data),
+        };
+        return chartOptions;
+    }
+
+    private transformHeat(yCat: string[], vals: any[]): any[] {
+        let data = []
+        for (let v of vals) {
+            for (let i = 0; i < v.data.length; i++) {
+                data.push([i, yCat.indexOf(v.name), v.data[i]]);
+            }
+        }
+        return data;
+    }
+
+    private drawHeat(meta: any, data: any[]): any {
+        let series = this.transformSeries(data);
+        let xCat = this.getKeys(data).map((k: any) => this.rdfService.getNameFromURI(k));
+        let yCat = series.map((d: any) => d.name);
+        series = this.transformHeat(yCat, series)
+        let chartOptions = {
+            chart: {
+                type: 'heatmap',
+                marginTop: 80,
+                marginBottom: 150
+            },
+            title: {
+                text: meta.Name,
+            },
+            subtitle: {
+                text: meta.Desc,
+            },
+            xAxis: {
+                categories: xCat,
+                title: {
+                    text: this.a2,
+                },
+                labels: {
+                    overflow: 'justify'
+                }
+            },
+            yAxis: {
+                categories: yCat,
+                title: null,
+                reversed: true
+            },
+            colorAxis: {
+                min: 0,
+                stops: [
+                    [0, "#ffffff"],
+                    [0.25, "#ffe100"],
+                    [0.5, "#ff7b00"],
+                    [0.9, "#ff0000"],
+                    [1, "#000000"],
+                ],
+                scale: 'logarithmic',
+            },
+            legend: {
+                align: 'right',
+                layout: 'vertical',
+                margin: 0,
+                verticalAlign: 'top',
+                y: 25,
+                symbolHeight: 280,
+                enabled: true,
+            },
+            tooltip : {
+                enabled:false,
+            },
+            series: [{
+                type: 'heatmap',
+                name: meta.Type,
+                borderWidth: 1,
+                data: series,
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000'
+                }
+            }],
+            responsive: {
+                rules: [{
+                    condition: {
+                        maxWidth: 500
+                    },
+                }]
+            }
         };
         return chartOptions;
     }
